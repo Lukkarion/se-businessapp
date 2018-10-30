@@ -84,6 +84,10 @@ public class Customer implements EntityIntf  {
 		contacts.add( contact );
 		return this;
 	}
+	public void setId( String id ) {
+	    //this.id = id; //original
+	    this.id = new String( id );
+	}
 
 	public Customer setStatus( CustomerStatus status ) {
 		this.status = status;

@@ -1,18 +1,18 @@
 package com.businessapp.customer;
 
+import static org.junit.Assert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
-
+import static org.hamcrest.core.Is.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import com.businessapp.pojos.Customer;
 import com.businessapp.pojos.Customer.CustomerStatus;
-import com.businessapp.pojos.LogEntry;
 
-class CustomerTests {
+
+public class CustomerTests {
 	
 	@Test
 	public void testgetId() {
@@ -25,6 +25,9 @@ class CustomerTests {
 		name = "Meyer";
 		Customer cus2 = new Customer(id, name);
 		assertEquals(cus2.getId(), "");
+		
+		cus2.setId("01");
+		assertThat("01"==cus2.getId(), is(false));
 	}
 	@Test
 	public void testgetName() {
@@ -67,4 +70,11 @@ class CustomerTests {
 		assertEquals(cus.getStatus(), CustomerStatus.ACTIVE);
 	}
 
+	@Test
+	public void test() {
+		String s1 = "ABC";
+		String s2 = new String( "ABC" );
+		assertEquals( s1, s2 );
+		assertThat(s1==s2,is(false));
+	}
 }

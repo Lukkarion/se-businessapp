@@ -4,6 +4,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
+import com.businessapp.customer.CustomerTests;
+
 
 /**
  * Unit test for simple App.
@@ -12,10 +14,10 @@ import org.junit.runners.Suite.SuiteClasses;
  */
 
 @RunWith( Suite.class )
-@SuiteClasses( {
-	AppTest.class,
-	//IndividualCustomerTests.class,
-})
+@SuiteClasses({
+	AppTest.class, 
+	CustomerTests.class
+	})
 
 public class TestSuite {
 
