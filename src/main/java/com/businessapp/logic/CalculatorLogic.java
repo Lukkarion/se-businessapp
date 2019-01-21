@@ -1,5 +1,7 @@
 package com.businessapp.logic;
 
+import java.text.DecimalFormat;
+
 import com.businessapp.Component;
 import com.businessapp.ControllerIntf;
 import com.businessapp.fxgui.CalculatorGUI_Intf;
@@ -73,10 +75,15 @@ class CalculatorLogic implements CalculatorLogicIntf {
 			case K_EQ:	appendBuffer( "=" ); break;
 
 			case K_VAT:
+				DecimalFormat format = new DecimalFormat("0.00");
+				double input = 100.00;
+				double mwst = mwst(input, VAT_RATE);
+				double netto = input - mwst;
+				
 				view.writeSideArea(
-					"Brutto:  1,000.00\n" +
-					VAT_RATE + "% MwSt:  159.66\n" +
-					"Netto:  840.34"
+					"Brutto:  " + format.format(input) + "\n" +
+					VAT_RATE + "% MwSt:  "+ format.format(mwst) + "\n" +
+					"Netto:  " + format.format(netto)
 				);
 				break;
 
@@ -110,6 +117,10 @@ class CalculatorLogic implements CalculatorLogicIntf {
 		if( dsb.length() <= CalculatorGUI_Intf.DISPLAY_MAXDIGITS ) {
 			dsb.append( d );
 		}
+	}
+	private double mwst(double input, double mwst) {
+		double mwstSatz = 100 + mwst;
+		return (input/mwstSatz) * mwst;
 	}
 
 }
