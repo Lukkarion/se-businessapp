@@ -1,0 +1,45 @@
+(1) Registrierung
+
+ID
+US#010.02
+
+Beschreibung 
+Es werden Email-Adresse, Passwort und Vor-und Nachnamen zur Registrierung des Kunden benutzt.
+
+Akteure
+Gast
+
+Status
+in Arbeit
+
+includes
+---
+
+Auslöser
+Registrierungswunsch des Kunden
+
+preconditions
+Kunde ist nicht angemeldet und nicht registriert
+
+Invarianten
+---
+
+postconditions
+Kunde ist registriert
+
+normal flow
+Vor und Zuname eingeben
+Email eingeben
+Passwort eingeben
+Passwort bestätigen
+RegistrierungsButton drücken
+Email überprüfen
+-> Rückkehr zur Startseite
+
+alternative flow
+Abbrechen des Registrierungsvorgangs
+-> Rückkehr zur Startseite
+Email ungültig
+-> Alert für falsche EmailEingabe (Eingaben bleiben bestehen)
+Email schon vorhanden
+-> Alert für vorhandene Email (Eingaben bleiben bestehen)

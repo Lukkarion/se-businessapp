@@ -1,0 +1,67 @@
+---
+(1) Akteure
+
+Gast/ Interessent
+
+Administrator
+
+registrierter Kunde
+
+Verkäufer
+
+Betrieber
+
+---
+
+(2) User Stories
+
+Gast/ Interessent
+
+	US#010.01: Als Gast möchte ich Angebote einsehen.
+	US#010.02: Als Gast möchte ich mich registrieren.
+
+registrierter Kunde
+
+	US#020.01: Als reg. Kunde möchte ich mein Passwort zurücksetzen.
+	US#020.02: Als reg. Kunde möchte ich mich anmelden.
+
+angemeldeter Kunde
+
+	US#030.01: Als angem. Kunde möchte ich Artikel einsehen.
+	US#030.02: Als angem. Kunde möchte ich mich abmelden.
+	US#030.03: Als angem. Kunde möchte ich ein Fahrrad mieten.
+	US#030.04: Als angem. Kunde möchte ich ein Fahrrad reservieren.
+	US#030.05: Als angem. Kunde möchte ich ein Fahrrad kaufen.
+	US#030.06: Als angem. Kunde möchte ich eine Fahrradmiete stornieren.
+	US#030.07: Als angem. Kunde möchte ich eine Fahrradreservierung stornieren.
+	US#030.08: Als angem. Kunde möchte ich ein ausgeliehes Fahrrad zurückgeben.
+
+Verkäufer
+
+	US#040.01: Als Verkäufer möchte ich Artikel einsehen.
+	US#040.02: Als Verkäufer möchte ich ein Fahrrad mieten.
+	US#040.03: Als Verkäufer möchte ich ein Fahrrad reservieren.
+	US#040.04: Als Verkäufer möchte ich ein Fahrrad kaufen.
+	US#040.05: Als Verkäufer möchte ich eine Fahrradmiete stornieren.
+	US#040.06: Als Verkäufer möchte ich eine Fahrradreservierung stornieren.
+	US#040.07: Als Verkäufer möchte ich ein ausgeliehes Fahrrad zurückgeben.
+	US#040.08: Als Verkäufer möchte ich Neukunden anlegen.
+	US#040.09: Als Verkäufer möchte ich Artikel registrieren.
+	US#040.10: Als Verkäufer möchte ich Fristen verlängern.
+
+Administrator
+
+	US#050.01: Als Administrator möchte ich Artikel einsehen.
+	US#050.02: Als Administrator möchte ich Mitarbeiter anlegen.
+	US#050.03: Als Administrator möchte ich Artikel registrieren.
+	US#050.04: Als Administrator möchte ich Neukunden anlegen.
+	US#050.05: Als Administrator möchte ich die Rohdaten einsehen, um Statistiken zu erstellen.
+	US#050.06: Als Administrator möchte ich Rollen vergeben.
+
+Betreiber
+
+	US#060.01: Als Betreiber möchte ich Artikel einsehen.
+	US#060.02: Als Betreiber möchte ich Statistiken einsehen.
+	US#060.03: Als Betreiber möchte ich Mitarbeiter anlegen.
+	US#060.04: Als Betreiber möchte ich Neukunden anlegen.
+	US#060.05: Als Betreiber möchte ich Artikel registrieren.
