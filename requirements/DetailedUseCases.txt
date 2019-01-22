@@ -43,3 +43,50 @@ Email ungültig
 -> Alert für falsche EmailEingabe (Eingaben bleiben bestehen)
 Email schon vorhanden
 -> Alert für vorhandene Email (Eingaben bleiben bestehen)
+
+--------------
+
+(2) Fahrrad mieten
+
+ID
+US#030.03
+
+Beschreibung 
+Mieten eines freien Fahrrads zu einem freien Zeitraum
+
+Akteure
+angemeldeter Kunde, Verkäufer
+
+Status
+in Arbeit
+
+includes
+---
+
+Auslöser
+Mietwunsch des Kunden nach Auswahl des Fahrrades
+
+preconditions
+Kunde ist registriert und angemeldet
+
+Invarianten
+---
+
+postconditions
+Kunde ist registriert, Bezahlungsvorgang ist ausgelöst
+
+normal flow
+Zeitraum auswählen
+Anzahl auswählen
+Mietbutton drücken
+->Bezahlung
+
+alternative flow
+Abbrechen des Mietvorgangs
+-> Rückkehr zur Startseite
+Zeitraum hinter aktuellem Datum
+-> Alert für alter Zeitraum
+Zeitraum besetzt
+-> Alert für Zeitraum besetzt
+Anzahl nicht auf Lager
+-> Alert für falsche Anzahl
