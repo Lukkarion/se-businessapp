@@ -1,0 +1,16 @@
+(1)
+a)
+
+A1: zeige Eingabeaufforderung an
+A2: gebe Nutzer-Kennzeichen ein
+A3: gebe Passwort ein
+A4: prüfe NutzerKennzeichen
+A5: lese Passwort aus
+A6: vergleiche Passwort
+A7: gewähre Zugang
+A8: zeige Fehlermeldung an
+A9: blockiere Systemzugang
+
+b) A1 | A7
+
+5. Usernamen vorschlagen
