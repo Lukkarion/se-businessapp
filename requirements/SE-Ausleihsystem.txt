@@ -1,0 +1,73 @@
+(2) Fahrradverleih 
+"...Hätte, Hätte, Fahrradkette..."
+
+---
+
+(3)/(4) Angebote
+Cityrad			10 € / Tag
+Damenrad		10 € / Tag
+Cross Fahrrad		15 € / Tag
+Mountainbike		12 € / Tag
+Trekking Bike		 8 € / Tag
+Rennrad			20 € / Tag
+E Bike			25 € / Tag
+Kinderfahrrad		 5 € / Tag
+
+Wann soll die Bezahlung erfolgen? Bei Buchung
+
+---
+
+(5) Interessenten
+-1- Familie 2 Kinder
+-2- Pärchen
+-3- Reisegruppe 6 Personen
+
+---
+
+(6) Nutzungsszenarien
+
+???
+
+---
+
+(7) Schritte einer Reservierung (was muss der Anbieter ermöglichen, was muss der Interessent tun)
+Stornierung ?! 
+Gebühren ?!
+Reservierung + Stronierung verhindern ?! (Blockierung)
+
+
+
+---
+
+(8) Schritte des Ausleihprozesses 
+Übergabe
+Abholung
+Nutzung
+wer, was, welche Gegenstände
+
+---
+
+(9) Schritte der Rückgabe
+a) ordnungsgemäßer Zustand; was wenn früher?
+b) mangelhafter Zustand; defekt?; verschmutzt?
+c) verstätete Rückgabe
+d) keine Rückgabe; Verlust?; keine Rückmeldung/ wann merke ich es
+
+---
+
+(10) Schritte der Bezahlung
+vollständig/teilweise
+Voraus, Übergabe, Rücknahme
+Storno?
+
+---
+
+(11) 2-3 Bsp Informationen
+a) Katalog der Angebote
+b) bestehende Reservierungen
+c) weitere Reservierungen noch bestehenden Kapazitäten
+d) getätigte Ausleihen wer, was, bis wann
+e) KundenInfos
+f) InventarInfos; Was; Kapazität; Zustand(ist ausleihbar, verschmutzt, defekt, bald ausgesondert, neu bestellt, steht bald bereit)
+g) AbrechnungsInfos; regulär; Sondergebühren(Stornos, versp., mangelh., versp.); Zustand; in Frist?; Zeitpunkt der Zahlung; Beträge offen?; Disput?; storno; vollst, teilw erstattet
+
